@@ -1,4 +1,20 @@
+ .backdrop { 
+   position: absolute ;
+   top: 101px ;
+   left: -1px ;
+   border: solid  3px #dddddd ;
+   border-left: transparent ;
+   border-right: transparent ;
+   background-image: url(file:///C:/Users/matt1/Desktop/professional-portfolio/Professional-Portfolio/images/gravel/gravel.png);
+   height: 960px ;
+   width: 1520px ;
+   background-color: #666666 ;
+   z-index: 1 ;
+ }
+ 
 .portHeader {
+  position: relative ;
+  left: 207px ;
   color: rgba(255, 255, 255, 0.8);
   margin-bottom: 35px;
   margin-left: 34px;
@@ -20,7 +36,9 @@
   float: right ;
 }
 .aboutMe {
+  float: left;
   position: relative ;
+  left: 264px ;
   color: rgb(61, 177, 185) ;
   padding-bottom: 23px;
   width: 496px;
@@ -33,6 +51,7 @@
   z-index: 11 ;
 }
 .connect {
+  text-align: center ;
   position: relative ;
   width: 158px;
   border-width: 10px;
@@ -41,20 +60,22 @@
   border-left: transparent;
   border-right: transparent;
   border-color: #cccccc ;
-  padding-bottom: 34px;
+  padding-bottom: 24px;
   position: relative;
   top: -84px;
-  left: 578px;
+  left: 1262px;
   color: rgb(61, 177, 185);
   z-index: 10 ;
 }
 
 
 .aboutMeBox {
+  float: left ;
   position: relative ;
-  height: 454px ;
-  width: 527px ;
-  top: -335px ;
+  height: 532px ;
+  width: 960px ;
+  top: -210px ;
+  left: 15em ;
   background-color: white ;
   border: solid 1px #dddddd ;
   z-index: 9 ;
@@ -62,24 +83,29 @@
 }
 .connectBox {
   position: relative;
-  
-  top: 116px;
-  left: 35em;
+  border: solid 1px #dddddd ;
+  top: 140px;
+  left: 77em;
   height: 154px;
   width: 225px;
   background-color: white;
   z-index: 3;
 }
 .footer {
+  border-top: 8px solid #4aaaa5;
+  height: 25px ;
+  width: 1518px ;
   position: relative;
   padding-top: 25px;
   padding-bottom: 25px;
   background-color: #666666;
-  top: 246px;
+  top: 716px;
   left: -7px;
+  z-index: 10 ;
 }
 .textCopy {
-  top: 194px ;
+  left: -497px ;
+  top: 4px ;
   position: relative ;
   text-align: center ;
   color: black ;
