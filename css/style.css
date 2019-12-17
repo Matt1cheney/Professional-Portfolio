@@ -1,0 +1,86 @@
+.portHeader {
+  color: rgba(255, 255, 255, 0.8);
+  margin-bottom: 35px;
+  margin-left: 34px;
+  float: left;
+  padding-left: 0px;
+  padding-top: 11px;
+  padding-bottom: 22px;
+  font-family:
+   'Georgia', Times, 'Times New Roman', serif;
+  text-align: center;
+  height: 30px;
+  width: 300px;
+  background-color: #4aaaa5;
+
+}
+
+.buttontop {
+  margin-top: 23px ;
+  float: right ;
+}
+.aboutMe {
+  position: relative ;
+  color: rgb(61, 177, 185) ;
+  padding-bottom: 23px;
+  width: 496px;
+  border-style: solid;
+  border-top: transparent;
+  border-left: transparent;
+  border-right: transparent;
+  border-color: #cccccc ;
+  clear: left;
+  z-index: 11 ;
+}
+.connect {
+  position: relative ;
+  width: 158px;
+  border-width: 10px;
+  border: solid;
+  border-top: transparent;
+  border-left: transparent;
+  border-right: transparent;
+  border-color: #cccccc ;
+  padding-bottom: 34px;
+  position: relative;
+  top: -84px;
+  left: 578px;
+  color: rgb(61, 177, 185);
+  z-index: 10 ;
+}
+
+
+.aboutMeBox {
+  position: relative ;
+  height: 454px ;
+  width: 527px ;
+  top: -335px ;
+  background-color: white ;
+  border: solid 1px #dddddd ;
+  z-index: 9 ;
+
+}
+.connectBox {
+  position: relative;
+  
+  top: 116px;
+  left: 35em;
+  height: 154px;
+  width: 225px;
+  background-color: white;
+  z-index: 3;
+}
+.footer {
+  position: relative;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  background-color: #666666;
+  top: 246px;
+  left: -7px;
+}
+.textCopy {
+  top: 194px ;
+  position: relative ;
+  text-align: center ;
+  color: black ;
+}
