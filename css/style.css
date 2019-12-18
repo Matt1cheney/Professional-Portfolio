@@ -30,10 +30,28 @@
   background-color: #4aaaa5;
 
 }
-
 .buttontop {
-  margin-top: 23px ;
+  
   float: right ;
+}
+.button1 {
+  color: #777777 ;
+  border:none ;
+  background: none ;
+}
+.button2 {
+ color: #777777 ;
+ background: none ;
+ border: solid 1px #dddddd;
+ border-top :none ;
+ border-bottom: none ;
+
+}
+.button3 {
+  color: #777777 ;
+  border: none;
+  background: none ;
+
 }
 .aboutMe {
   float: left;
@@ -81,6 +99,18 @@
   z-index: 9 ;
 
 }
+.aboutmetext {
+
+}
+.profileImage {
+  float: middle ;
+  top: 150px ;
+  height: 250px ;
+  width: 400px ;
+  position:  relative ;
+  z-index: 55 ;
+  left: 215px ;
+}
 .connectBox {
   position: relative;
   border: solid 1px #dddddd ;
@@ -91,6 +121,9 @@
   background-color: white;
   z-index: 3;
 }
+body { 
+  min-height: calc(100vh - 70px);
+}
 .footer {
   border-top: 8px solid #4aaaa5;
   height: 25px ;
@@ -99,7 +132,7 @@
   padding-top: 25px;
   padding-bottom: 25px;
   background-color: #666666;
-  top: 716px;
+  top: 410px;
   left: -7px;
   z-index: 10 ;
 }
@@ -108,5 +141,5 @@
   top: 4px ;
   position: relative ;
   text-align: center ;
-  color: black ;
+  color: #dddddd ;
 }
