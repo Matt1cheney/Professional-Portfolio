@@ -104,7 +104,9 @@
     z-index: 9;
   }
 
-  .aboutmetext {}
+  .aboutmetext {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+  }
 
   div.profileImage {
     float: left;
