@@ -1,145 +1,143 @@
- .backdrop { 
-   position: absolute ;
-   top: 101px ;
-   left: -1px ;
-   border: solid  3px #dddddd ;
-   border-left: transparent ;
-   border-right: transparent ;
-   background-image: url(file:///C:/Users/matt1/Desktop/professional-portfolio/Professional-Portfolio/images/gravel/gravel.png);
-   height: 960px ;
-   width: 1520px ;
-   background-color: #666666 ;
-   z-index: 1 ;
- }
- 
-.portHeader {
-  position: relative ;
-  left: 207px ;
-  color: rgba(255, 255, 255, 0.8);
-  margin-bottom: 35px;
-  margin-left: 34px;
-  float: left;
-  padding-left: 0px;
-  padding-top: 11px;
-  padding-bottom: 22px;
-  font-family:
-   'Georgia', Times, 'Times New Roman', serif;
-  text-align: center;
-  height: 30px;
-  width: 300px;
-  background-color: #4aaaa5;
+  .backdrop {
+    margin: auto ;
+    border: solid 3px #dddddd;
+    border-left: transparent;
+    border-right: transparent;
+    background-image: url(file:///C:/Users/matt1/Desktop/professional-portfolio/Professional-Portfolio/images/gravel/gravel.png);
+    height: 960px;
+    width: 1520px;
+    background-color: #666666;
+    z-index: 1;
+  }
 
-}
-.buttontop {
-  
-  float: right ;
-}
-.button1 {
-  color: #777777 ;
-  border:none ;
-  background: none ;
-}
-.button2 {
- color: #777777 ;
- background: none ;
- border: solid 1px #dddddd;
- border-top :none ;
- border-bottom: none ;
+  .portHeader {
+    
+    margin: auto ;
+    position: relative;
+    color: rgba(255, 255, 255, 0.8);
+    margin-bottom: 0;
+    margin: 0 50% 0 17%;
+    padding-left: 0px;
+    padding-top: 11px;
+    padding-bottom: 22px;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    text-align: center;
+    height: 30px;
+    width: 300px;
+    background-color: #4aaaa5;
+  }
 
-}
-.button3 {
-  color: #777777 ;
-  border: none;
-  background: none ;
+  .buttontop {
+    margin: -2% 0 0 0 ;
+    float: right;
+    
+    
+  }
 
-}
-.aboutMe {
-  float: left;
-  position: relative ;
-  left: 264px ;
-  color: rgb(61, 177, 185) ;
-  padding-bottom: 23px;
-  width: 496px;
-  border-style: solid;
-  border-top: transparent;
-  border-left: transparent;
-  border-right: transparent;
-  border-color: #cccccc ;
-  clear: left;
-  z-index: 11 ;
-}
-.connect {
-  text-align: center ;
-  position: relative ;
-  width: 158px;
-  border-width: 10px;
-  border: solid;
-  border-top: transparent;
-  border-left: transparent;
-  border-right: transparent;
-  border-color: #cccccc ;
-  padding-bottom: 24px;
-  position: relative;
-  top: -84px;
-  left: 1262px;
-  color: rgb(61, 177, 185);
-  z-index: 10 ;
-}
+  div.buttontop a {
+    text-decoration: none;
+  }
 
+  .button1 {
+    padding: 0 .5rem 0 1rem;
+    color: #777777;
+    border: none;
+    background: none;
+  }
 
-.aboutMeBox {
-  float: left ;
-  position: relative ;
-  height: 532px ;
-  width: 960px ;
-  top: -210px ;
-  left: 15em ;
-  background-color: white ;
-  border: solid 1px #dddddd ;
-  z-index: 9 ;
+  .button2 {
+    color: #777777;
+    background: none;
+    border: solid 1px #dddddd;
+    border-top: none;
+    border-bottom: none;
+  }
 
-}
-.aboutmetext {
+  .button3 {
+    color: #777777;
+    border: none;
+    background: none;
+  }
 
-}
-.profileImage {
-  float: middle ;
-  top: 150px ;
-  height: 250px ;
-  width: 400px ;
-  position:  relative ;
-  z-index: 55 ;
-  left: 215px ;
-}
-.connectBox {
-  position: relative;
-  border: solid 1px #dddddd ;
-  top: 140px;
-  left: 77em;
-  height: 154px;
-  width: 225px;
-  background-color: white;
-  z-index: 3;
-}
-body { 
-  min-height: calc(100vh - 70px);
-}
-.footer {
-  border-top: 8px solid #4aaaa5;
-  height: 25px ;
-  width: 1518px ;
-  position: relative;
-  padding-top: 25px;
-  padding-bottom: 25px;
-  background-color: #666666;
-  top: 410px;
-  left: -7px;
-  z-index: 10 ;
-}
-.textCopy {
-  left: -497px ;
-  top: 4px ;
-  position: relative ;
-  text-align: center ;
-  color: #dddddd ;
-}
+  .aboutMe {
+    float: left;
+    position: relative;
+    color: rgb(61, 177, 185);
+    padding-bottom: 0;
+    width: 496px;
+    border-style: solid;
+    border-top: transparent;
+    border-left: transparent;
+    border-right: transparent;
+    border-color: #cccccc;
+    z-index: 11;
+  }
+
+  .connect {
+    margin: auto ;
+    text-align: center;
+    position: relative;
+    width: 158px;
+    border-width: 10px;
+    border: solid;
+    border-top: transparent;
+    border-left: transparent;
+    border-right: transparent;
+    border-color: #cccccc;
+    padding-bottom: 0;
+    position: relative;
+    color: rgb(61, 177, 185);
+    z-index: 10;
+  }
+
+  .aboutMeBox {
+    float: left;
+    margin: 0 3% 0 17%;
+    height: 567px;
+    width: 960px;
+    background-color: white;
+    border: solid 1px #dddddd;
+    z-index: 9;
+  }
+
+  .aboutmetext {}
+
+  div.profileImage {
+    float: left;
+    margin: 0 50% 0 0;
+    height: 225px;
+    width: 400px;
+    position: relative;
+    z-index: 55;
+  }
+
+  .connectBox {
+    float: left;
+    
+    border: solid 1px #dddddd;
+    height: 154px;
+    width: 225px;
+    background-color: white;
+    z-index: 9;
+  }
+
+  body {
+    min-height: calc(100vh - 70px);
+  }
+
+  .footer {
+    border-top: 8px solid #4aaaa5;
+    height: 25px;
+    width: 1518px;
+    position: relative;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    background-color: #666666;
+    z-index: 10;
+  }
+
+  .textCopy {
+    position: relative;
+    text-align: center;
+    color: #dddddd;
+  }
