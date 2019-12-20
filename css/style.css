@@ -210,4 +210,10 @@
     padding: .5em 1em .5em 1em ;
     margin: .5em 0 1em 2em;
   }
-  
+  div.portfolioBox {
+    background-color: white;;
+    height: 50em ;
+    width: 60em ;
+    margin: 0% 0% 0% 17%;
+    z-index: 100;
+  }
